@@ -15,8 +15,8 @@
     &out OUT_TOG    &kp A         &kp S          &kp R          &kp T       &kp D       &kp H     &kp N              
     &bt BT_PRV      &kp Z         &kp X          &kp C          &kp V       &kp B       &kp K     &kp M           
     &bt BT_NXT      &kp LGUI      &kp LALT       &bt BT_PRV     &kp SPACE   &bt BT_NXT  &kp RALT  &kp RCTRL 
-    &kp 8           &kp 9         &kp 0          &kp MINUS      &kp EQUAL   &kp U       &kp Y     &kp I
-    &kp SEMI        &kp LBKT      &kp GRAVE      &kp O          &kp APOS    &kp ENTER   &kp E     &kp LSHIFT
+    &bt BT_CLR      &kp 9         &kp 0          &kp MINUS      &kp EQUAL   &kp U       &kp Y     &kp I
+    &kp BT_CLR_ALL  &kp LBKT      &kp GRAVE      &kp O          &kp APOS    &kp ENTER   &kp E     &kp LSHIFT
             >;   
         };
 
