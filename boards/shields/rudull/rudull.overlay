@@ -1,5 +1,7 @@
+#include <dt-bindings/zmk/matrix_transform.h>
+
 / {
-    model="rudull"
+    model="rudull";
     chosen {
         zmk,kscan = &kscan0;
         zmk,matrix-transform = &default_transform;
@@ -7,8 +9,8 @@
     
         default_transform: keymap_transform_0 {
         compatible = "zmk,matrix-transform";
-        columns = <13>;
-        rows = <5>;
+        columns = <8>;
+        rows = <7>;
 
 // | MX1  | MX2  | MX3  | MX4  | MX5  | MX6  | MX7  | MX8  | MX9  | MX10 | MX11 | MX12 | MX13 |
 // | MX14 | MX15 | MX16 | MX17 | MX18 | MX19 | MX20 | MX21 | MX22 | MX23 | MX24 | MX25 | MX26 |
